@@ -43,12 +43,13 @@
                     <div class="collapse navbar-collapse" id="myNavbar">
                         <ul class="nav navbar-nav">
                             <li class="active"><a href="#">Home</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Gallery</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="ExpenseMainCatagory.aspx">Add Expense Main Catagory</a></li>
+                            <li><a href="#">Add Expense Sub Catagory</a></li>
+                            <li><a href="#">Add Expenses</a></li>
                         </ul>
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span>Logout</a></li>
+                            <li><a href="#"><span class="glyphicon glyphicon-user"></span> <asp:Label ID="lblUser" runat="server" Text=""></asp:Label> </a></li>
+                            <li><a href="Logout.aspx"><span class="glyphicon glyphicon-log-in"></span>&nbsp;Logout</a></li>
                         </ul>
                     </div>
                 </div>
