@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AddSubCategory.aspx" />
     <Content Include="ExpenseMainCatagory.aspx" />
     <Content Include="Home.aspx" />
     <Content Include="Login.aspx" />
@@ -74,6 +75,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddSubCategory.aspx.cs">
+      <DependentUpon>AddSubCategory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddSubCategory.aspx.designer.cs">
+      <DependentUpon>AddSubCategory.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ExpenseMainCatagory.aspx.cs">
       <DependentUpon>ExpenseMainCatagory.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

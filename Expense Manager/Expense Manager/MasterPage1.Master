@@ -44,7 +44,7 @@
                         <ul class="nav navbar-nav">
                             <li class="active"><a href="#">Home</a></li>
                             <li><a href="ExpenseMainCatagory.aspx">Add Expense Main Catagory</a></li>
-                            <li><a href="#">Add Expense Sub Catagory</a></li>
+                            <li><a href="AddSubCategory.aspx">Add Expense Sub Catagory</a></li>
                             <li><a href="#">Add Expenses</a></li>
                         </ul>
                         <ul class="nav navbar-nav navbar-right">

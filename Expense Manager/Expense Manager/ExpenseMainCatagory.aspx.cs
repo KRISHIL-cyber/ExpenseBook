@@ -31,7 +31,7 @@ namespace Expense_Manager
             {
                 con.Open();
             }
-            SqlDataAdapter da = new SqlDataAdapter("Select * from tblExpType", con);
+            SqlDataAdapter da = new SqlDataAdapter("Select * from tblExpenseType", con);
             DataTable dt = new DataTable();
             da.Fill(dt);
             if(dt.Rows.Count>0)
@@ -51,7 +51,7 @@ namespace Expense_Manager
             {
                 SqlConnection con = new SqlConnection(GetConnectionString());
                 
-                SqlCommand cmd = new SqlCommand("Insert into tblExpType(ExpenseType) values(@ExpenseType)", con);
+                SqlCommand cmd = new SqlCommand("Insert into tblExpenseType(ExpenseType) values(@ExpenseType)", con);
                 
                 cmd.Parameters.AddWithValue("@ExpenseType", TextBox1.Text.Trim());
                 

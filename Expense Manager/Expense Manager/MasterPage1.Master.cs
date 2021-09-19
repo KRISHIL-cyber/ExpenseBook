@@ -30,7 +30,7 @@ namespace Expense_Manager
             }
             catch(Exception ex)
             {
-                Response.Redirect("<script> alert('" + ex.Message + "') </sctipt>");
+                Response.Write("<script> alert('" + ex.Message + "') </sctipt>");
             }
             
         }
