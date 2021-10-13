@@ -15,12 +15,14 @@
         .navbar {
             margin-bottom: 0;
             border-radius: 0;
+            background-color:black;
         }
 
         /* Add a gray background color and some padding to the footer */
         footer {
-            background-color: #f2f2f2;
+            background-color: black;
             padding: 25px;
+            color:white;
         }
     </style>
     <asp:ContentPlaceHolder ID="head" runat="server">
@@ -38,11 +40,10 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="Home.aspx">ExpenseBook</a>
+                        <a class="navbar-brand" href="Reports.aspx">ExpenseBook</a>
                     </div>
                     <div class="collapse navbar-collapse" id="myNavbar">
                         <ul class="nav navbar-nav">
-                            <li class="active"><a href="Home.aspx">Reports</a></li>
                             <li><a href="ExpenseMainCatagory.aspx">Main Category</a></li>
                             <li><a href="AddSubCategory.aspx">Sub Category</a></li>
                             <li><a href="webpageAddExpenses.aspx">Add Expenses</a></li>
@@ -53,10 +54,9 @@
                                 <ul class="dropdown-menu">
                                     <li><a href="EditMainCat.aspx">Edit Main Catagory</a></li>
                                     <li><a href="EditSubCat.aspx">Edit SubCatagory</a></li>
-                                    <li><a href="#">Edit Expenses</a></li>
                                 </ul>
-                            </li>                      
-                            
+                            </li>
+                            <li><a href="AboutUs.aspx">About Us</a></li>
                         
                         </ul>
                         <ul class="nav navbar-nav navbar-right">

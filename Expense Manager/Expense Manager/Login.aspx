@@ -15,6 +15,7 @@
         .navbar {
             margin-bottom: 0;
             border-radius: 0;
+            background-color: black;
         }
 
         /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
@@ -31,9 +32,9 @@
 
         /* Set black background color, white text and some padding */
         footer {
-            background-color: #555;
-            color: white;
-            padding: 15px;
+            background-color: #313131;
+            padding: 25px;
+            color:white;
         }
 
         /* On small screens, set height to 'auto' for sidenav and grid */
@@ -63,11 +64,7 @@
                         <a class="navbar-brand" href="#">ExpenseBook</a>
                     </div>
 
-                    <div class="collapse navbar-collapse" id="myNavbar">
-                        <ul class="nav navbar-nav">
-                            <li class="active"><a href="#">Home</a></li>
-                        </ul>
-                    </div>
+                    
                 </div>
             </nav>
 
@@ -106,15 +103,6 @@
                                 </div>
 
                             </div>
-                            <div class="panel-footer">Panel Footer</div>
-                        </div>
-                    </div>
-                    <div class="col-sm-2 sidenav">
-                        <div class="well">
-                            <p>ADS</p>
-                        </div>
-                        <div class="well">
-                            <p>ADS</p>
                         </div>
                     </div>
                 </div>
