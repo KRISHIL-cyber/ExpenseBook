@@ -42,7 +42,7 @@ namespace Expense_Manager
                                 Response.Write("<script>alert('" + dr.GetValue(0).ToString() + "')</script>");
                                 Session["UserName"] = dr.GetValue(0).ToString();
                             }
-                            Response.Redirect("Home.aspx");
+                            Response.Redirect("Reports.aspx");
                         }
                         else
                         {
