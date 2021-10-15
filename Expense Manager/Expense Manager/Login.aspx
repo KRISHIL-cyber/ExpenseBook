@@ -99,6 +99,10 @@
                                         <div class="form-group">
                                             <asp:Button ID="ButtonLogin" CssClass="btn btn-success btn-lg" runat="server" Text="LOGIN" OnClick="ButtonLogin_Click" />
                                         </div>
+                                        <div>
+                                            <a href="Signup.aspx">New User?</a>
+                                        </div>
+
                                     </div>
                                 </div>
 

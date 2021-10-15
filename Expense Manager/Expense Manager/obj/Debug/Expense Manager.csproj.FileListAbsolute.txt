@@ -234,3 +234,62 @@ C:\Users\Admin\OneDrive\Desktop\k\Github\ExpenseBook-main\Expense Manager\Expens
 C:\Users\Admin\OneDrive\Desktop\k\Github\ExpenseBook-main\Expense Manager\Expense Manager\obj\Debug\Expense Manager.csproj.CopyComplete
 C:\Users\Admin\OneDrive\Desktop\k\Github\ExpenseBook-main\Expense Manager\Expense Manager\obj\Debug\Expense Manager.dll
 C:\Users\Admin\OneDrive\Desktop\k\Github\ExpenseBook-main\Expense Manager\Expense Manager\obj\Debug\Expense Manager.pdb
+C:\Users\KRISHIL\Desktop\ExpenseBook\Expense Manager\Expense Manager\bin\Expense Manager.dll.config
+C:\Users\KRISHIL\Desktop\ExpenseBook\Expense Manager\Expense Manager\bin\Expense Manager.dll
+C:\Users\KRISHIL\Desktop\ExpenseBook\Expense Manager\Expense Manager\bin\Expense Manager.pdb
+C:\Users\KRISHIL\Desktop\ExpenseBook\Expense Manager\Expense Manager\bin\roslyn\csc.exe
+C:\Users\KRISHIL\Desktop\ExpenseBook\Expense Manager\Expense Manager\bin\roslyn\csc.exe.config
+C:\Users\KRISHIL\Desktop\ExpenseBook\Expense Manager\Expense Manager\bin\roslyn\csc.rsp
+C:\Users\KRISHIL\Desktop\ExpenseBook\Expense Manager\Expense Manager\bin\roslyn\csi.exe
+C:\Users\KRISHIL\Desktop\ExpenseBook\Expense Manager\Expense Manager\bin\roslyn\csi.exe.config
+C:\Users\KRISHIL\Desktop\ExpenseBook\Expense Manager\Expense Manager\bin\roslyn\csi.rsp
+C:\Users\KRISHIL\Desktop\ExpenseBook\Expense Manager\Expense Manager\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\KRISHIL\Desktop\ExpenseBook\Expense Manager\Expense Manager\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\KRISHIL\Desktop\ExpenseBook\Expense Manager\Expense Manager\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\KRISHIL\Desktop\ExpenseBook\Expense Manager\Expense Manager\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\KRISHIL\Desktop\ExpenseBook\Expense Manager\Expense Manager\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\KRISHIL\Desktop\ExpenseBook\Expense Manager\Expense Manager\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\KRISHIL\Desktop\ExpenseBook\Expense Manager\Expense Manager\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\KRISHIL\Desktop\ExpenseBook\Expense Manager\Expense Manager\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\KRISHIL\Desktop\ExpenseBook\Expense Manager\Expense Manager\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\KRISHIL\Desktop\ExpenseBook\Expense Manager\Expense Manager\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\KRISHIL\Desktop\ExpenseBook\Expense Manager\Expense Manager\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\KRISHIL\Desktop\ExpenseBook\Expense Manager\Expense Manager\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\KRISHIL\Desktop\ExpenseBook\Expense Manager\Expense Manager\bin\roslyn\System.AppContext.dll
+C:\Users\KRISHIL\Desktop\ExpenseBook\Expense Manager\Expense Manager\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\KRISHIL\Desktop\ExpenseBook\Expense Manager\Expense Manager\bin\roslyn\System.Console.dll
+C:\Users\KRISHIL\Desktop\ExpenseBook\Expense Manager\Expense Manager\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\KRISHIL\Desktop\ExpenseBook\Expense Manager\Expense Manager\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\KRISHIL\Desktop\ExpenseBook\Expense Manager\Expense Manager\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\KRISHIL\Desktop\ExpenseBook\Expense Manager\Expense Manager\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\KRISHIL\Desktop\ExpenseBook\Expense Manager\Expense Manager\bin\roslyn\System.IO.Compression.dll
+C:\Users\KRISHIL\Desktop\ExpenseBook\Expense Manager\Expense Manager\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\KRISHIL\Desktop\ExpenseBook\Expense Manager\Expense Manager\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\KRISHIL\Desktop\ExpenseBook\Expense Manager\Expense Manager\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\KRISHIL\Desktop\ExpenseBook\Expense Manager\Expense Manager\bin\roslyn\System.Net.Http.dll
+C:\Users\KRISHIL\Desktop\ExpenseBook\Expense Manager\Expense Manager\bin\roslyn\System.Net.Sockets.dll
+C:\Users\KRISHIL\Desktop\ExpenseBook\Expense Manager\Expense Manager\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\KRISHIL\Desktop\ExpenseBook\Expense Manager\Expense Manager\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\KRISHIL\Desktop\ExpenseBook\Expense Manager\Expense Manager\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\KRISHIL\Desktop\ExpenseBook\Expense Manager\Expense Manager\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\KRISHIL\Desktop\ExpenseBook\Expense Manager\Expense Manager\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\KRISHIL\Desktop\ExpenseBook\Expense Manager\Expense Manager\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\KRISHIL\Desktop\ExpenseBook\Expense Manager\Expense Manager\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\KRISHIL\Desktop\ExpenseBook\Expense Manager\Expense Manager\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\KRISHIL\Desktop\ExpenseBook\Expense Manager\Expense Manager\bin\roslyn\System.ValueTuple.dll
+C:\Users\KRISHIL\Desktop\ExpenseBook\Expense Manager\Expense Manager\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\KRISHIL\Desktop\ExpenseBook\Expense Manager\Expense Manager\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\KRISHIL\Desktop\ExpenseBook\Expense Manager\Expense Manager\bin\roslyn\System.Xml.XPath.dll
+C:\Users\KRISHIL\Desktop\ExpenseBook\Expense Manager\Expense Manager\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\KRISHIL\Desktop\ExpenseBook\Expense Manager\Expense Manager\bin\roslyn\vbc.exe
+C:\Users\KRISHIL\Desktop\ExpenseBook\Expense Manager\Expense Manager\bin\roslyn\vbc.exe.config
+C:\Users\KRISHIL\Desktop\ExpenseBook\Expense Manager\Expense Manager\bin\roslyn\vbc.rsp
+C:\Users\KRISHIL\Desktop\ExpenseBook\Expense Manager\Expense Manager\bin\roslyn\VBCSCompiler.exe
+C:\Users\KRISHIL\Desktop\ExpenseBook\Expense Manager\Expense Manager\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\KRISHIL\Desktop\ExpenseBook\Expense Manager\Expense Manager\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\KRISHIL\Desktop\ExpenseBook\Expense Manager\Expense Manager\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\KRISHIL\Desktop\ExpenseBook\Expense Manager\Expense Manager\obj\Debug\Expense Manager.csproj.AssemblyReference.cache
+C:\Users\KRISHIL\Desktop\ExpenseBook\Expense Manager\Expense Manager\obj\Debug\Expense Manager.csproj.CoreCompileInputs.cache
+C:\Users\KRISHIL\Desktop\ExpenseBook\Expense Manager\Expense Manager\obj\Debug\Expense Manager.csproj.CopyComplete
+C:\Users\KRISHIL\Desktop\ExpenseBook\Expense Manager\Expense Manager\obj\Debug\Expense Manager.dll
+C:\Users\KRISHIL\Desktop\ExpenseBook\Expense Manager\Expense Manager\obj\Debug\Expense Manager.pdb
