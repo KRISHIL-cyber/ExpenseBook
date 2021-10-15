@@ -74,11 +74,11 @@
     <Content Include="EditSubCat.aspx" />
     <Content Include="ExpenseMainCatagory.aspx" />
     <Content Include="Home.aspx" />
+    <Content Include="Home.css" />
     <Content Include="Login.aspx" />
     <Content Include="Logout.aspx" />
     <Content Include="Reports.aspx" />
     <Content Include="Signup.aspx" />
-    <Content Include="Signup.css" />
     <Content Include="Web.config" />
     <Content Include="WebForm2.aspx" />
     <Content Include="webpageAddExpenses.aspx" />

@@ -15,38 +15,21 @@
         .navbar {
             margin-bottom: 0;
             border-radius: 0;
-            background-color: black;
+        }
+        .navbar-header ,.navbar-brand {
+            width: 100%;
+            text-align: center;
+            color: orange;
+            font-size: 35px;
+            font-weight: bold;
+        }
+        .container-fluid
+        {
+            margin:15px
         }
 
-        /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-        .row.content {
-            height: 450px
-        }
-
-        /* Set gray background color and 100% height */
-        .sidenav {
-            padding-top: 20px;
-            background-color: #f1f1f1;
-            height: 100%;
-        }
-
-        /* Set black background color, white text and some padding */
-        footer {
-            background-color: #313131;
-            padding: 25px;
-            color:white;
-        }
-
-        /* On small screens, set height to 'auto' for sidenav and grid */
-        @media screen and (max-width: 767px) {
-            .sidenav {
-                height: auto;
-                padding: 15px;
-            }
-
-            .row.content {
-                height: auto;
-            }
+        .navbar-inverse .navbar-brand {
+            color: #24bdc5;
         }
     </style>
 </head>
@@ -56,65 +39,53 @@
             <nav class="navbar navbar-inverse">
                 <div class="container-fluid">
                     <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="#">ExpenseBook</a>
+                        <a class="navbar-brand"><center>ExpenseBook</center></a>
                     </div>
 
-                    
                 </div>
             </nav>
-
+            <br />
+            <br />
+            <br />
             <div class="container-fluid text-center">
                 <div class="row content">
-
-                    <div class="col-sm-2 sidenav">
-                    </div>
-                    <div class="col-sm-8 text-left">
+                    <div class="col-md-4"></div>
+                    <div class="col-sm-4 text-center">
                         <br />
-                        <div class="panel panel-primary">
-                            <div class="panel-heading">Login</div>
+                        <div class="panel panel-success">
+                            
+                            <div class="panel-heading" style="padding:1px"><h3>Login</h3></div>
+                                
                             <div class="panel-body">
-                                <div class="row">
-                                    <div class="col-md-4">
-                                        <div class="form-group">
-                                            <label>Username:</label>
-                                            <asp:TextBox ID="TextBox1" runat="server" CssClass="form-control"></asp:TextBox>
-                                        </div>
+                                <div>
+                                    <div class="form-group text-left">
+                                        <label>Username:</label>
+                                        <asp:TextBox ID="TextBox1" runat="server" CssClass="form-control" placeholder="Enter Your Username" required></asp:TextBox>
+                                        
                                     </div>
-
-                                    <div class="col-md-4">
-                                        <div class="form-group">
-                                            <label>Password:</label>
-                                            <asp:TextBox ID="TextBox2" runat="server" TextMode="Password" CssClass="form-control"></asp:TextBox>
-                                        </div>
+                                    <div class="form-group text-left">
+                                        <label>Password:</label>
+                                        <asp:TextBox ID="TextBox2" runat="server" TextMode="Password" CssClass="form-control" placeholder="Enter Your Password" required="required"></asp:TextBox>
+                                        
                                     </div>
                                 </div>
 
-                                <div class="row">
-                                    <div class="col-md-4">
-                                        <div class="form-group">
-                                            <asp:Button ID="ButtonLogin" CssClass="btn btn-success btn-lg" runat="server" Text="LOGIN" OnClick="ButtonLogin_Click" />
-                                        </div>
-                                        <div>
-                                            <a href="Signup.aspx">New User?</a>
-                                        </div>
 
-                                    </div>
+
+                                <div class="form-group">
+                                    <asp:Button ID="ButtonLogin" CssClass="btn btn-success btn-lg" runat="server" Text="LOGIN" OnClick="ButtonLogin_Click" />
+                                </div>
+                                <div>
+                                    <a href="Signup.aspx">Create a New Account</a>
                                 </div>
 
                             </div>
                         </div>
                     </div>
+                    <div class="col-md-4"></div>
                 </div>
             </div>
 
-            <footer class="container-fluid text-center">
-                <p>ExpenseBook</p>
-            </footer>
         </div>
     </form>
 </body>

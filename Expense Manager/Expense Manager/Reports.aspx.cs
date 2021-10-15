@@ -28,7 +28,10 @@ namespace Expense_Manager
 
         private void BindMainCatIntoGrid()
         {
-            SqlCommand cmd = new SqlCommand("select t1.ID,t1.ExpenseTypeID, t2.ExpenseType, t1.ExpSubTypeID, t3.ExpSubType_Desc, t1.Decription, t1.Amount, t1.DateOfPayment , t1.CreatedBy from tblAllExpenses as t1 inner join tblExpenseType as t2 on t1.ExpenseTypeID = t2.ExpenseTypeID inner join tblExpSubType as t3 on t1.ExpSubTypeID = t3.ExpSubTypeID");
+            String Uname = Session["UserName"].ToString();
+            SqlCommand cmd = new SqlCommand("select t1.ID,t1.ExpenseTypeID, t2.ExpenseType, t1.ExpSubTypeID, t3.ExpSubType_Desc, t1.Decription, t1.Amount, t1.DateOfPayment , t1.CreatedBy from tblAllExpenses as t1 inner join tblExpenseType as t2 on t1.ExpenseTypeID = t2.ExpenseTypeID inner join tblExpSubType as t3 on t1.ExpSubTypeID = t3.ExpSubTypeID where CreatedBy=@Uname");
+            cmd.CommandType = CommandType.Text;
+            cmd.Parameters.AddWithValue("@Uname", Uname);
             GridView1.DataSource = GetData(cmd);
             GridView1.DataBind();
 

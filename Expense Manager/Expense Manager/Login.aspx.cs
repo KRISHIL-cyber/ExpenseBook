@@ -7,6 +7,7 @@ using System.Web.UI.WebControls;
 using System.Data;
 using System.Data.SqlClient;
 using System.Configuration;
+using Expense_Manager.Models;
 
 namespace Expense_Manager
 {
@@ -42,7 +43,7 @@ namespace Expense_Manager
                                 Response.Write("<script>alert('" + dr.GetValue(0).ToString() + "')</script>");
                                 Session["UserName"] = dr.GetValue(0).ToString();
                             }
-                            Response.Redirect("Reports.aspx");
+                            Response.Redirect("Home.aspx");
                         }
                         else
                         {

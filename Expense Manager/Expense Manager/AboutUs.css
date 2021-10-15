@@ -5,10 +5,11 @@
     --font3: 'Roboto', sans-serif;
 }
 
-.h1,
-h1 {
-    font-size: 1.5rem;
+h3 {
+    font-size: 36px;
 }
+
+
 
 .container-fluid {
     max-width: 1400px;
@@ -69,9 +70,7 @@ h1 {
         transform: scale(1.1);
     }
 
-.card h2 {
-    font-size: 1rem;
-}
+
 
 
 /* MEDIA */
@@ -83,8 +82,5 @@ h1 {
 }
 
 @media only screen and (min-width: 1200px) {
-    .h1,
-    h1 {
-        font-size: 2rem;
-    }
+    
 }

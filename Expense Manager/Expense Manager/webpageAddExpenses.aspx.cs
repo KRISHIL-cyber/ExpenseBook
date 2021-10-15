@@ -152,14 +152,16 @@ namespace Expense_Manager
             {
                 DataSet ds = new DataSet();
                 con.Open();
-                SqlCommand cmd = new SqlCommand("select t1.ID,t2.ExpenseType as MainCategory,t3.ExpSubType_Desc as SubCategory,t1.Decription as Description,t1.Amount,t1.DateOfPayment as Date,t1.CreatedBy from tblAllExpenses as t1 inner join tblExpenseType as t2 on t2.ExpenseTypeID = t1.ExpenseTypeID inner join tblExpSubType as t3 on t3.ExpSubTypeID = t1.ExpSubTypeID order by t1.ID desc", con);
+                String Uname = Session["UserName"].ToString();
+                SqlCommand cmd = new SqlCommand("select t1.ID,t2.ExpenseType as MainCategory,t3.ExpSubType_Desc as SubCategory,t1.Decription as Description,t1.Amount,t1.DateOfPayment as Date from tblAllExpenses as t1 inner join tblExpenseType as t2 on t2.ExpenseTypeID = t1.ExpenseTypeID inner join tblExpSubType as t3 on t3.ExpSubTypeID = t1.ExpSubTypeID where CreatedBy=@Uname order by t1.ID desc ", con);
                 cmd.CommandType = CommandType.Text;
+                cmd.Parameters.AddWithValue("@Uname", Uname);
 
                 SqlDataAdapter da = new SqlDataAdapter(cmd);
                 da.Fill(ds);
                 con.Close();
                 if (ds.Tables[0].Rows.Count > 0)
-                {
+                { 
                     GridView1.DataSource = ds;
                     GridView1.DataBind();
                 }
