@@ -15,13 +15,13 @@ namespace Expense_Manager
     {
 
         /// <summary>
-        /// form1 control.
+        /// form2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.HtmlControls.HtmlForm form2;
 
         /// <summary>
         /// uname control.
@@ -33,22 +33,13 @@ namespace Expense_Manager
         protected global::System.Web.UI.WebControls.TextBox uname;
 
         /// <summary>
-        /// UsernameValidator control.
+        /// RegularExpressionValidator2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator UsernameValidator;
-
-        /// <summary>
-        /// UsernameExpressionValidator control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RegularExpressionValidator UsernameExpressionValidator;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator2;
 
         /// <summary>
         /// email control.
@@ -60,22 +51,13 @@ namespace Expense_Manager
         protected global::System.Web.UI.WebControls.TextBox email;
 
         /// <summary>
-        /// EmailValidator control.
+        /// RegularExpressionValidator1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator EmailValidator;
-
-        /// <summary>
-        /// EmailExpressionValidator control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RegularExpressionValidator EmailExpressionValidator;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator1;
 
         /// <summary>
         /// passwd control.
@@ -87,22 +69,13 @@ namespace Expense_Manager
         protected global::System.Web.UI.WebControls.TextBox passwd;
 
         /// <summary>
-        /// PasswordValidator control.
+        /// RegularExpressionValidator3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator PasswordValidator;
-
-        /// <summary>
-        /// PassExpressionValidator control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.RegularExpressionValidator PassExpressionValidator;
+        protected global::System.Web.UI.WebControls.RegularExpressionValidator RegularExpressionValidator3;
 
         /// <summary>
         /// repasswd control.
@@ -114,22 +87,13 @@ namespace Expense_Manager
         protected global::System.Web.UI.WebControls.TextBox repasswd;
 
         /// <summary>
-        /// RepasswordValidator control.
+        /// CompareValidator2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator RepasswordValidator;
-
-        /// <summary>
-        /// CompareValidator1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.CompareValidator CompareValidator1;
+        protected global::System.Web.UI.WebControls.CompareValidator CompareValidator2;
 
         /// <summary>
         /// ButtonSignup control.

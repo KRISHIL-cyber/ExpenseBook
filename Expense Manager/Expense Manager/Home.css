@@ -1,0 +1,111 @@
+﻿.u-section-1 {
+    background-image: url("./Untitled-3.jpg");
+    background-position: 50% 50%;
+}
+
+    .u-section-1 .u-sheet-1 {
+        min-height: 683px;
+        margin-left: 25px;
+        margin-top: -121px;
+        
+    }
+
+    .u-section-1 .u-text-1 {
+        letter-spacing: 0px;
+        font-size: 4.5rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin: 121px 570px 0 13px;
+        padding-top: 175px;
+        color: #db545a
+    }
+
+    .u-section-1 .u-text-2 {
+        letter-spacing: 0px;
+        font-size: 1.25rem;
+        font-weight: 700;
+        margin: 38px 570px 0 13px;
+    }
+
+    .u-section-1 .u-text-3 {
+        background-image: none;
+        font-size: 1rem;
+        line-height: 1.8;
+        margin:30px 940px 15px 13px;
+    }
+
+    
+
+@media (max-width: 1199px) {
+    .u-section-1 {
+        background-position: 0% 50%;
+    }
+
+        .u-section-1 .u-sheet-1 {
+            min-height: 563px;
+        }
+
+        .u-section-1 .u-text-2 {
+            margin-right: 370px;
+        }
+
+        .u-section-1 .u-text-3 {
+            margin-right: 547px;
+        }
+}
+
+@media (max-width: 991px) {
+    .u-section-1 .u-sheet-1 {
+        min-height: 431px;
+    }
+
+    .u-section-1 .u-text-1 {
+        font-size: 3.75rem;
+        margin-right: 350px;
+    }
+
+    .u-section-1 .u-text-2 {
+        margin-right: 150px;
+    }
+
+    .u-section-1 .u-text-3 {
+        margin-right: 327px;
+    }
+}
+
+@media (max-width: 767px) {
+    .u-section-1 .u-sheet-1 {
+        min-height: 323px;
+    }
+
+    .u-section-1 .u-text-1 {
+        margin-right: 170px;
+    }
+
+    .u-section-1 .u-text-2 {
+        margin-right: 0;
+    }
+
+    .u-section-1 .u-text-3 {
+        margin-right: 147px;
+    }
+}
+
+@media (max-width: 575px) {
+    .u-section-1 {
+        background-position: 9.67% 50%;
+    }
+
+        .u-section-1 .u-sheet-1 {
+            min-height: 203px;
+        }
+
+        .u-section-1 .u-text-1 {
+            font-size: 3rem;
+            margin-right: 0;
+        }
+
+        .u-section-1 .u-text-3 {
+            margin-right: 0;
+        }
+}

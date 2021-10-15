@@ -14,7 +14,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="container">
-    <div class="panel panel-primary">
+    <div class="panel panel-info">
         <div class =" panel-heading"><h5>Edit Main Category</h5></div>
         <div class="panel-body">
             <div class="row">

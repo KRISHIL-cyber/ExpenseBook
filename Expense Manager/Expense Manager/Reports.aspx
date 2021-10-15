@@ -11,8 +11,8 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="container">
-        <div class="panel panel-primary">
-            <div class =" panel-heading"><h5>All Records</h5></div>
+        <div class="panel panel-info ">
+            <div class =" panel-heading"><h4>All Records</h4></div>
             <div class="panel-body">
                 <div class="row">
                 <div class="col-md-12">
@@ -83,7 +83,6 @@
                                 </asp:TemplateField>
 
                                 <asp:BoundField DataField="DateOfPayment" HeaderText="Date" ReadOnly="true"/>
-                                <asp:BoundField DataField="CreatedBy" HeaderText="Username" ReadOnly="true"/>
 
                                 <asp:CommandField ShowEditButton="true" ControlStyle-CssClass="btn btn-sm btn-success" HeaderText="Edit" />
                             <asp:CommandField ShowDeleteButton="true" ButtonType="Button" ControlStyle-CssClass="btn btn-sm btn-danger" HeaderText="Delete"/>

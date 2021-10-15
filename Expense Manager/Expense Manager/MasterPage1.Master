@@ -24,6 +24,11 @@
             padding: 25px;
             color:white;
         }
+
+        .navbar-inverse .navbar-brand {
+            color: #24bdc5;
+        }
+
     </style>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
@@ -40,10 +45,11 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="Reports.aspx">ExpenseBook</a>
+                        <a class="navbar-brand" href="Home.aspx">ExpenseBook</a>
                     </div>
                     <div class="collapse navbar-collapse" id="myNavbar">
                         <ul class="nav navbar-nav">
+                            <li><a href="Reports.aspx">My Records</a></li>
                             <li><a href="ExpenseMainCatagory.aspx">Main Category</a></li>
                             <li><a href="AddSubCategory.aspx">Sub Category</a></li>
                             <li><a href="webpageAddExpenses.aspx">Add Expenses</a></li>
@@ -59,6 +65,7 @@
                             <li><a href="AboutUs.aspx">About Us</a></li>
                         
                         </ul>
+                        
                         <ul class="nav navbar-nav navbar-right">
                             <li><a href="#"><span class="glyphicon glyphicon-user"></span> <asp:Label ID="lblUser" runat="server" Text=""></asp:Label> </a></li>
                             <li><a href="Logout.aspx"><span class="glyphicon glyphicon-log-in"></span>&nbsp;Logout</a></li>
@@ -74,9 +81,6 @@
 
             </div>
 
-            <footer class="container-fluid text-center">
-                <p>ExpenseBook</p>
-            </footer>
         </div>
     </form>
 </body>
