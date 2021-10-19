@@ -57,8 +57,8 @@ This Project is made Using asp.net and mysql. It is an expense book manager whic
 
 ### Built With
 
-* [asp.net](https://nextjs.org/)
-* [mysql](https://reactjs.org/)
+* [asp.net]
+* [Microsoft SQL Server]
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
